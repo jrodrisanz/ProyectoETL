@@ -49,11 +49,14 @@ https://www.kaggle.com/datasets/luiscorter/netflix-original-films-imdb-scores
 
 4. Limpieza de datos:
 
-4.1. Renombramos tablas, hacemos merge() y reorganizamos las tablas para darles sentido a las relaciones que existen entre ellas.
-4.2. Valoramos qué nulos eliminar. Por ejemplo, para la tabla Age_certification, si encontramos algún valor nulo cuyo género de la película sea Horror, lo cambiamos por R (+17).
-Los dataset, por lo general, estaban bastante limpios, igualmente he tomado la decisión de eliminar las filas que tenian valores nulos en los ids, ya que, curiosamente, también tenían nulos el resto de valores de la fila.
+        4.1. Renombramos tablas, hacemos merge() y reorganizamos las tablas para darles sentido a las relaciones que existen entre ellas.
+        4.2. Valoramos qué nulos eliminar. Por ejemplo, para la tabla Age_certification, si encontramos algún valor nulo cuyo género de la película sea Horror, lo cambiamos por R (+17).
+        Los dataset, por lo general, estaban bastante limpios, igualmente he tomado la decisión de eliminar las filas que tenian valores nulos en los ids, ya que, curiosamente, también tenían nulos el resto de valores de la fila.
 
-5. Subida de tablas a la base de datos (SQL)
+5. Subida de tablas a la base de datos (SQL): las relaciones entre tablas quedarían de la siguiente manera:
+
+[![relaciones-sql.png](https://i.postimg.cc/qMjZ2pCM/relaciones-sql.png)](https://postimg.cc/hfQrBWrH)
+
 
 
 
